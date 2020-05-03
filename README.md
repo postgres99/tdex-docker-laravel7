@@ -1,14 +1,14 @@
 BUILD
-- docker-compose up -d --build
+- `docker-compose up -d --build`
 
 START
-docker-compose up
+- `docker-compose up`
 
 DOWN
-docker-compose down
+- `docker-compose down`
 
 LIST
-docker ps
+- `docker ps`
 
 OTHER COMMANDS
 - `docker-compose run --rm composer update`
@@ -16,8 +16,8 @@ OTHER COMMANDS
 - `docker-compose run --rm artisan migrate` 
 
 LARAVEL new install src
-cd ./src
-composer create-project --prefer-dist laravel/laravel .
+- `cd ./src`
+- `composer create-project --prefer-dist laravel/laravel .`
 
 POSTGRESQL DATA
-./postgresql
+- `./postgresql`
